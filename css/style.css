@@ -166,12 +166,12 @@ h6 {
 #header #logo h1 {
   font-size: 36px;
   margin: 0;
-  padding: 6px 0;
+  padding: 2px 0;
   line-height: 1;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
-  letter-spacing: 3px;
-  text-transform: uppercase;
+  letter-spacing: 2px;
+  /* text-transform: uppercase; */
 }
 
 #header #logo h1 span {
@@ -1070,9 +1070,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #sponsors .sponsors-wrap {
-  border-top: 1px solid #e0e5fa;
-  border-left: 1px solid #e0e5fa;
+  /* border-top: 1px solid #e0e5fa; */
+  /* border-left: 1px solid #e0e5fa; */
   margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  
 }
 
 #sponsors .sponsor-logo {
@@ -1086,11 +1091,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  border-right: 1px solid #e0e5fa;
-  border-bottom: 1px solid #e0e5fa;
+  /* border-right: 1px solid #e0e5fa; */
+  /* border-bottom: 1px solid #e0e5fa; */
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
+  mix-blend-mode: color-burn;
 }
 
 #sponsors .sponsor-logo:hover img {
